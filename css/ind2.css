@@ -1,0 +1,121 @@
+body { background-color: rgb(170, 187, 147);
+    margin: 30px;
+  }
+  h1{color: aquamarine;} 
+  p{color: rgb(10, 80, 7); 
+    text-align: center;
+}
+h1:hover{color: darkorange;}
+p:hover{color:rgb(238, 114, 97);}
+  
+    .aside {
+      grid-area: aside;
+    }
+  
+    .box main {
+      grid-area:main;
+    }
+  
+    .header {
+      grid-area: header;
+    }
+    .section {
+        grid-area: section;
+      }
+    .footer {
+      grid-area: footer;
+      
+    }
+    .box header{ grid-area: box header;}
+    .box nav{ grid-area: box nav;}
+    
+     
+    
+  /*celular 1 columna*/
+    .caja { background-color: rgb(154, 226, 172);
+      color: #444;
+      display: grid;
+      grid-gap: 1px;
+      grid-template-rows:auto 300px 1fr 1fr 1fr;
+      grid-template-areas:
+       "header"
+       "main"
+       "section"       
+       "aside"
+       "footer";
+       height: 90vh;
+    }
+  /* tablet  2 columnas */
+  @media only screen and (min-width:700px){       
+    .caja { 
+      grid-template-columns: 60% 1fr;
+      grid-template-rows:auto 200px 200px  1fr;
+      grid-template-areas:
+      "header   header"
+      "section    main"
+      "aside    aside"
+      "footer   footer";
+      height: 90vh;
+      grid-gap: 10px;
+    }
+    }
+    
+    
+    .header{grid-template-columns: 100px 1fr;
+      grid-template-areas:
+      "box header   box nav"}
+  /* pc escritorio 3 columnas */
+    @media only screen and (min-width:1200px) {
+    
+      .caja {
+        grid-template-columns: 1fr 400px 1fr;
+        grid-template-rows:1fr 400px  1fr;
+        grid-template-areas:
+        "header  header header"
+        "main  section aside"
+        "footer  footer  footer";
+        max-width: 1500px;
+        height: 90vh;
+        grid-gap: 10px;
+      } 
+    }
+  
+  .box {
+    background-color: rgb(32, 115, 163);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 100%; 
+  }
+  /* barra navegacion */
+  /*.ul{background-color: rgb(76, 43, 226);
+    text-decoration:none;}*/
+  .a{background-color: rgb(6, 100, 56);
+  border-radius: 10px; text-decoration:none;color: cyan;
+}
+  .b{background-color: rgb(6, 100, 56);
+    border-radius: 10px; text-decoration:none;color: cyan;
+  }
+  .c{background-color: rgb(6, 100, 56);
+    border-radius: 10px; text-decoration:none;color: cyan;
+  }
+  .d{background-color: rgb(6, 100, 56);
+    border-radius: 10px; text-decoration:none;color: cyan;
+  }
+  .e{background-color: rgb(6, 100, 56);
+    border-radius: 10px; text-decoration:none;color: cyan;
+  }
+  .header{ background-color: rgb(19, 185, 236);
+    font-size: 24px;
+   }
+   
+  .section{background-color: chartreuse;
+  }
+  .aside {
+    background-color: rgb(127, 148, 68);
+    color: #444;
+  }
+  .footer {
+    background-color: rgb(58, 193, 235);
+    font-size: 29px;
+   }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/mihoja.css">
+    <title>formulario</title>
+   
+ 
+ <script src="js/formulario.js"> </script>
+</head>
+<body>
+
+<body>
+<div class="caja">
+    <header class="titulo">
+    <header id="cabecera"> 
+           <h1>TECZERVICE REFRIGERACIÓN</h1></div>
+
+     </header></div>
+     
+     <nav id="barranavegacion">
+     				
+     		<ul>
+     			<li>
+     					    							
+					<a href="index-1.html">	INICIO</a>			
+     			</li>		
+     			<li>
+					<a href="">	SERVICIOS</a>					
+     			</li>	
+     				<li>
+						<a href="formulario.html">	CONTACTO</a>
+					 </li>
+						
+     			
+     		</ul>		
+     				
+     </nav>
+
+    <form name="form" action="#" method="POST" onsubmit="validar();">
+    				
+        NOMBRE: <input type="text" name="nombre" placeholder="ingesa tu nombre" > <br> <br>
+        
+        APELLIDO: <input type="text" name="apellido" placeholder="ingesa tu apellido"> <br> <br>
+        
+        TELEFONO: <input type="tel" name="Telefono" placeholder="ingesa tu TELEFONO" required> 
+        <span id="requerido">*</span> <br> <br>
+        
+        EMAIL: <input type="email" name="email" placeholder="ingesa tu email">  <br> <br>
+        
+        CONSULTA: <br> <br> 
+        <textarea type="consulta" rows="5" cols="40" placeholder="ingesa tu consulta aqui"></textarea><br>
+        
+        <button onclick ="validar();"> Enviar</button>
+    
+    </form>
+</body>
+</html>
