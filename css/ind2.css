@@ -6,7 +6,7 @@ body { background-color: rgb(170, 187, 147);
     text-align: center;
 }
 h1:hover{color: darkorange;}
-p:hover{color:rgb(238, 114, 97);}
+p:hover{color:rgb(194, 128, 119);}
   
     .aside {
       grid-area: aside;

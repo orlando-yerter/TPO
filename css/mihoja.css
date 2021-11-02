@@ -1,7 +1,9 @@
- 
+ body{background-color: cyan;}
+h1:hover{color: darkorange;}
+
 .caja{display:grid;
       grid-template: 80%;
-      
+      background-color:rgb(155, 197, 144) ;
 
 grid-template-areas:
      "header" 
@@ -83,7 +85,7 @@ li{	 style-decorated:none;}
 
 margin-bottom: 95%;
 }		
-
+/*#barranavegacion{background-color: burlywood;}*/
 #sectorprincipal{background-color:#f0a826;
 margin-left: 10px;}
 #foto{max-width:60%}
@@ -91,6 +93,7 @@ margin-left: 10px;}
 
 #pieprincipal{background-color:#eaf000;
 text-align:center;
+
 }
 	
 li{background-color:yellow;
@@ -99,5 +102,19 @@ text-align:center;
 border-radius:12px;
 
 }			
+.text{background-color:#f0a826;
+    
+}
+
+.footer {
+    background-color: rgb(58, 193, 235);
+    font-size: 29px;font-family: "Times New Roman", Times, serif;
+    text-align:center;}
+    footer:hover{color:rgb(194, 128, 119);}
+
+
+
+.formulario{background-color:rgb(0, 255, 213);
+  }		
 		
-		
+button{background-color: rgb(194, 84, 130);}

@@ -11,7 +11,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  
 </script>
 <script src="js/formulario.js" language="javascript" type="text/javascript"></script>
 
@@ -49,35 +49,36 @@
     
     <section>
         <div class="formulario">
-            <form>
-                <h2>por favor introdusca sus datos :</h2>
-                <label for="firstname">Nombre: </label> <input type="text" name="firstname" id="firstname"
+            <form name="form" action="#" method="POST" onsubmit="validar();">
+            <div class="text"><h2>por favor introdusca sus datos :</h2></div>
+                <label for="nombre">Nombre: </label> <input type="text" name="nombre" id="firstname"
                     placeholder="Ingrese su nombre aqui..." required>
                     <span id="requerido">*</span>
                 <br><br>
-                <label for="lastname">Apellido:</label> <input type="text" name="lastname" id="lastname"
+                <label for="apellido">Apellido:</label> <input type="text" name="apellido" id="lastname"
                     placeholder="Ingrese su apellido aqui..." required>
                     <span id="requerido">*</span>
                 <br><br>
-                <label for="telefono">Telefono:</label> <input type="tel" name="telefono" id="telefono"
+                <label for="telefono">Telefono:</label> <input type="tel" name="tel" id="telefono"
                     placeholder="ingrese su telefono aqui ....">
                 <br><br>
-                <label for="mail">Mail: </label> <input type="email" name="mail" id="mail"
+                <label for="mail">eMail : </label> <input type="email" name="mail" id="mail"
                     placeholder="ingrese su mail aqui ...." required>
                     <span id="requerido">*</span>
                 <br><br>
                 <span id="requerido">* Campos obligatorios</span>
                 <div id="boton">
-                    <input type="submit" value="Enviar">
                     
+                    <button onclick ="validar();"> Enviar</button>
                 </div>
             </form>
         </div>
         <br>
     </section>
-    <footer>
+    <footer class="footer" >
         <p>teczervice@gmail.com
     </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
