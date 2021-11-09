@@ -5,6 +5,10 @@ body { background-color: rgb(170, 187, 147);
   p{color: rgb(10, 80, 7); 
     text-align: center;
 }
+*img {
+  max-width: 100%;
+  height: auto;
+}
 h1:hover{color: darkorange;}
 p:hover{color:rgb(194, 128, 119);}
   
@@ -48,8 +52,8 @@ p:hover{color:rgb(194, 128, 119);}
   /* tablet  2 columnas */
   @media only screen and (min-width:700px){       
     .caja { 
-      grid-template-columns: 60% 1fr;
-      grid-template-rows:auto 200px 200px  1fr;
+      grid-template-columns: 50% 1fr;
+      grid-template-rows:auto 300px 200px  1fr;
       grid-template-areas:
       "header   header"
       "section    main"
