@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* barra de navegacion */
+.navbar {
+    display: flex;
+    background-color: rgb(59, 10, 10);
+}
+
+/* estilos para los links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: rgb(48, 175, 80);
+    color: rgb(33, 21, 65);
+}
+h2:hover{color:rgb(238, 114, 97);}
+h1:hover{color:rgb(214, 97, 238);}
+b:hover{color:rgb(22, 59, 221);}
+/* transision */
+.fotos :hover {width: 250px;}
+/* contenedor */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  
+/* barra lateral isquerda */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main  */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* fotos */
+.fotos {
+    background-color: rgb(137, 158, 189);
+    width: 80%;
+    
+    padding: 20px;
+    transition: width 3s;
+}
+/*iframe estilo */
+.ifram{ background-color: rgb(56, 122, 221);
+        width: 100%;
+} 
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(109, 226, 98);
+}
+
+/*  600px 2 clumnas */
+@media (max-width: 600px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
