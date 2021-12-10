@@ -1,6 +1,12 @@
 body { background-color: rgb(170, 187, 147);
     margin: 30px;
   }
+  .logo{background:rgb(29, 213, 219);padding:5px;
+    text-align:left;
+    width: 5%;
+    height: 50px;
+    font-size: 40px;}
+    
   h1{color: aquamarine;} 
   p{color: rgb(10, 80, 7); 
     text-align: center;
@@ -32,11 +38,11 @@ p:hover{color:rgb(194, 128, 119);}
     }
     .box header{ grid-area: box header;}
     .box nav{ grid-area: box nav;}
-    
-     
+   
+    .box f{ grid-area: box f;}
     
   /*celular 1 columna*/
-    .caja { background-color: rgb(154, 226, 172);
+    .container { 
       color: #444;
       display: grid;
       grid-gap: 1px;
@@ -47,7 +53,7 @@ p:hover{color:rgb(194, 128, 119);}
        "section"       
        "aside"
        "footer";
-       height: 90vh;
+       height: 100vh;
     }
   /* tablet  2 columnas */
   @media only screen and (min-width:700px){       
@@ -78,7 +84,7 @@ p:hover{color:rgb(194, 128, 119);}
         "header  header header"
         "main  section aside"
         "footer  footer  footer";
-        max-width: 1500px;
+        max-width: 1200px;
         height: 90vh;
         grid-gap: 10px;
       } 
@@ -113,13 +119,16 @@ p:hover{color:rgb(194, 128, 119);}
     font-size: 24px;
    }
    
-  .section{background-color: chartreuse;
+  .section{background-color: chartreuse; height: 50vh;
   }
   .aside {
     background-color: rgb(127, 148, 68);
     color: #444;
   }
-  .footer {
-    background-color: rgb(58, 193, 235);
+  .footer {display: grid;
+    background-color: rgb(61, 188, 226);
     font-size: 29px;
+   
    }
+  
+   
