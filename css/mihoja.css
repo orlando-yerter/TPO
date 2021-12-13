@@ -51,7 +51,7 @@ h1:hover{color: darkorange;}
      "aside"  
      "footer";
  grid-gap: 10px;
- height: 100vh;
+ height: 90vh;
 }
 
 .header{grid-area:header;}
@@ -73,12 +73,16 @@ grid-template-areas:
 }
 
 .header{grid-area:header;}
-.nav{grid-area:nav;}
+.nav{grid-area:nav;}  
 .aside{grid-area:aside;}
 .section{grid-area:section;}
-
+.footer{grid-area:footer;}
 @media  screen and (max-width:1200px){body 
     {background-color:rgb(155, 197, 144) ;
+   
+
+
+
     }    
 }
 
@@ -102,9 +106,8 @@ p[name=parrafo]{color: #a37571;
   }		
 		
 button{background-color: rgb(50, 77, 245);
-       padding: 15px;
+       padding: 15px 20px;
        border: 10px solid #e2dfd8; /*color naranja para el borde*/ 
-       
 }
 
       
