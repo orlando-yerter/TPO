@@ -97,5 +97,6 @@ img{}
     .row,
     .nav {
         flex-direction: column;
+        width:100%;
     }
 }
