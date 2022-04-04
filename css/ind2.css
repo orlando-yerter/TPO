@@ -68,6 +68,7 @@ p:hover{color:rgb(194, 128, 119);}
     @media only screen and (min-width:1200px) {
     
       .caja {
+          display:gid;
         grid-template-columns: 1fr 400px 1fr;
         grid-template-rows:1fr 400px  1fr;
         grid-template-areas:
