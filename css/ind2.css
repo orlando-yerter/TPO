@@ -1,6 +1,17 @@
-body { /*background-color: rgb(170, 187, 147);*?
+*{ box-sizing:border-box;
     margin: 30px;
   }
+body{
+    font-family:Arial;
+    margin:0;
+    
+    
+}
+.caja{
+     width:85%
+
+
+}
   h1{color: aquamarine;} 
   p{color: rgb(10, 80, 7); 
     text-align: center;
