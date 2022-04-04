@@ -1,4 +1,4 @@
-body { background-color: rgb(170, 187, 147);
+body { /*background-color: rgb(170, 187, 147);*?
     margin: 30px;
   }
   h1{color: aquamarine;} 
@@ -35,7 +35,7 @@ p:hover{color:rgb(194, 128, 119);}
     .caja { background-color: rgb(154, 226, 172);
       color: #444;
       display: grid;
-      grid-gap: 1px;
+      grid-gap: 2px;
       grid-template-rows:auto 300px 1fr 1fr 1fr;
       grid-template-areas:
        "header"
@@ -44,6 +44,7 @@ p:hover{color:rgb(194, 128, 119);}
        "aside"
        "footer";
        height: 90vh;
+       max-whidth:1200px; 
     }
   /* tablet  2 columnas */
   @media only screen and (min-width:700px){       
@@ -75,7 +76,7 @@ p:hover{color:rgb(194, 128, 119);}
         "header  header header"
         "main  section aside"
         "footer  footer  footer";
-        max-width: 1500px;
+        max-width: 1200px;
         height: 90vh;
         grid-gap: 10px;
       } 
