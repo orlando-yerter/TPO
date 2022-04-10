@@ -1,4 +1,6 @@
- body{background-color: cyan;}
+body{
+	
+	background-color: cyan;}
 h1:hover{color: darkorange;}
 
 .caja{display:grid;
@@ -17,6 +19,9 @@ grid-template-areas:
 .nav{grid-area:nav;}
 .aside{grid-area:aside;}
 .section{grid-area:section;}
+.header{
+       
+}
 
 @media only screen and (min-width:				600px){
 .caja{display:grid;
