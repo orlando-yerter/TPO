@@ -5,7 +5,7 @@
 body{
     font-family: Arial;
        margin: 0;
-       padding: 15px;
+       padding: 0;
 }
 
 .logo{padding: 5px;
@@ -16,15 +16,38 @@ body{
 }
 
     /* Header*/
-.header {padding: 10px;
-         text-align: center; 
-         background: #1abc9c;
-         color: white;
+.header{
+	
+ background:#141822;
+		
+justify-text:center;
 }
 
+.logo{
+				font-size: 1.5em;
+				padding: 0.5em 2em;
+				lether-spacing:0.3em;
+		
+}
+				
+
+
+
     /* barra de navegacion */
-.nav{display: flex;
-    background-color: rgb(50, 77, 230);
+
+.logo:hover{
+				background: #eeff15;
+				}
+.header a{
+				text-decoration:none;
+				color:white;
+}
+.logo-nav{
+				display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+
 }
 
 
