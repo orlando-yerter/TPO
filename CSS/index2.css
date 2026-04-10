@@ -46,26 +46,9 @@ body {
 
 
 
-/* barra de navegacion */
-.nav {
-    display: flex;
-    background-color: rgb(50, 77, 230);
-    width:100%;
-}
 
-/* estilos para los links */
-.nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}
 
-/* Change color on hover */
-.nav a:hover {
-    background-color: rgb(48, 175, 80);
-    color: rgb(33, 21, 65);
-}
+
 h2:hover{color:rgb(238, 114, 97);}
 h1:hover{color:rgb(214, 97, 238);}
 b:hover{color:rgb(22, 59, 221);}
