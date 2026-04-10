@@ -29,6 +29,7 @@ body {
 /* barra de navegacion */
 .nav {
     display: flex;
+    justify-content:center;
     background-color: rgb(82, 147, 167);
 }
 
@@ -37,7 +38,7 @@ body {
     color: white;
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
+    
 }
 
 /* Change color on hover */
