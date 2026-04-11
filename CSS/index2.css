@@ -23,23 +23,7 @@ body {
     color: white;
 }
 
-/* NAV */
-.nav {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(50, 77, 230);
-}
 
-.nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    background-color: rgb(48, 175, 80);
-    color: rgb(33, 21, 65);
-}
 */
 
 
