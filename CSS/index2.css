@@ -62,6 +62,22 @@ b:hover{color:rgb(22, 59, 221);}
     display: flex;
     flex-wrap: wrap;
 }
+/* LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.section {
+    flex: 2;
+    padding: 20px;
+} pequeño cambio en el row y aside
 
   
 /* barra lateral isquerda */
