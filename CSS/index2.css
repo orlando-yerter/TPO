@@ -49,6 +49,12 @@ body {
     border: none;
     color: white;
 }
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
 
 .btn {
     display: inline-block;
