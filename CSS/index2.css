@@ -17,7 +17,7 @@ body {
     padding: 10px;
 }
 
-.logo {
+/*.logo {
     font-size: 32px;
     text-decoration: none;
     color: white;
@@ -40,9 +40,31 @@ body {
     background-color: rgb(48, 175, 80);
     color: rgb(33, 21, 65);
 }
+*/
 
 
+.logo {
+    margin: 0;
+}
 
+/* NAV */
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
 
 
 
