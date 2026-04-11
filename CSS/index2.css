@@ -135,3 +135,28 @@ img{}
         width:100%;
     }
 }
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        background: #1abc9c;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
