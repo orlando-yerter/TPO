@@ -126,15 +126,7 @@ img{}
     background: rgb(109, 226, 98);
 }
 
-/*  600px 2 clumnas */
-@media (max-width: 600px) {
 
-    .row,
-    .nav {
-        flex-direction: column;
-        width:100%;
-    }
-}
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
