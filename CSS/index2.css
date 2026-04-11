@@ -46,6 +46,15 @@ body {
     color: white;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 
 
