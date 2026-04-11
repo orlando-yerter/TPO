@@ -5,33 +5,17 @@
 body{
     font-family: Arial;
        margin: 0;
-       padding: 0;
+       line-height: 1.5;
 }
-
-.logo{padding: 5px;
-        width: 15%;
-        height: 30px;
-        font-size:30px;
-        float:left;
+/* HEADER */
+.header {
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
-
-    /* Header*/
-.header{
-	
- background:#141822;
-		
-justify-text:center;
+.logo{margin:0;
 }
-
-.logo{
-				font-size: 1.5em;
-				padding: 0.5em 2em;
-				lether-spacing:0.3em;
-		
-}
-				
-
-
 
     /* barra de navegacion */
 
