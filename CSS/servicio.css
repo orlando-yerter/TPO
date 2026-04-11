@@ -18,6 +18,12 @@ body {
       
 
 /* barra de navegacion */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
 .nav {
     display: flex;
     gap:20px;
